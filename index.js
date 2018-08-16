@@ -13,7 +13,7 @@ exports.handler = (event, context, callback) => {
     };
 
     const apnProvider = new apn.Provider(options);
-    const deviceToken = 'aa84cbaae60c947295bd02fe091d4c7ff076eb55f3878e61fc451e8a53130ad6';
+    const deviceToken = 'xxxxxxxxe60c947295bd02fe091d4c7ff076eb55f3878e61fc451e8a53130ad6';
     const notification = new apn.Notification();
 
     notification.expiry = Math.floor(Date.now() / 1000) + 3600;
